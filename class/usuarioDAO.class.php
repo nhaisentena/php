@@ -4,7 +4,7 @@ class usuarioDAO{
     private $conexao;
     public function __construct(){
         $this->conexao = new PDO(
-            "mysql:host=localhost; dbname=bdeverton",
+            "mysql:host=localhost; dbname=bdnhai",
             "root", ""
         );
     }
